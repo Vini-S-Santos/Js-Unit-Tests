@@ -12,6 +12,17 @@
 */
 
 const average = (array) => {
+  let sum = 0;
+  if (array.length === 0) {
+    return undefined;
+  }
+  for (let index = 0; index < array.length; index += 1) {
+    if (typeof array[index] !== 'number' || array === []) {
+      return undefined;
+    }
+    sum += array[index];
+  }
+  return Math.round(sum / array.length); // Math.round() retorna o valor de um número arredondado para o inteiro mais proximo.
 };
 
 module.exports = average;
