@@ -125,7 +125,6 @@ describe('10 - Implemente a função `createMenu`, bem como seus casos de teste'
     // objetoRetornado.order('coxinha');
     // objetoRetornado.order('agua');
     // objetoRetornado.order('coxinha');
-    // expect(objetoRetornado8.pay()).toBeCloseTo(12.87);
     // objetoRetornado.pay() // Retorno: somaDosPreçosDosPedidos
     // ```
     // expect(createMenu({food: {'coxinha': 10.00, 'sanduiche': 15.00},drinks: {'agua': 1.50,}}).pay()).toBeCloseto(26.50)
