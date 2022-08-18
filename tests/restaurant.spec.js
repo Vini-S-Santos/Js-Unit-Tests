@@ -58,8 +58,7 @@ describe('10 - Implemente a função `createMenu`, bem como seus casos de teste'
     // ```
     // const objetoRetornado = createMenu(); // Retorno: { fetchMenu: () => {}, ... }
     // ```
-    const restaurant = createMenu('Leandrão, o Lobo Solitário');
-    expect(typeof restaurant.fetchMenu).toBe('function')
+    expect(typeof createMenu().fetchMenu).toBe('function')
     // expect(typeof createMenu().fetchMenu).toEqual('function')
     // TESTE 2: Verifique se 'objetoRetornado.fetchMenu()' retorna um objeto cujas chaves são somente `food` e `drink`, 
     // considerando que a função createMenu() foi chamada com o objeto: `{ food: {}, drink: {} }`.
